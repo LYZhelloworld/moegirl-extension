@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Moegirl Extension",
+    "version": "0.0.1",
+    "description": "Browser extension of Moegirlpedia",
+    "author": "Helloworld",
+    "permissions": [
+        "storage",
+        "*://zh.moegirl.org.cn/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://zh.moegirl.org.cn/*"
+            ],
+            "js": [
+                "core/index.js"
+            ]
+        }
+    ],
+    "options_ui": {
+        "page": "options/index.html",
+        "chrome_style": true
+    }
+}
