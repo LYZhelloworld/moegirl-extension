@@ -1,0 +1,11 @@
+{
+    "name": {
+        "message": "萌娘百科扩展"
+    },
+    "description": {
+        "message": "萌娘百科浏览器扩展插件"
+    },
+    "option_hide_comments": {
+        "message": "隐藏评论区"
+    }
+}

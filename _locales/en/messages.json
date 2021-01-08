@@ -1,0 +1,11 @@
+{
+    "name": {
+        "message": "Moegirl Extension"
+    },
+    "description": {
+        "message": "Browser extension of Moegirlpedia"
+    },
+    "option_hide_comments": {
+        "message": "Hide comments"
+    }
+}

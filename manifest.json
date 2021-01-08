@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "Moegirl Extension",
+    "name": "__MSG_name__",
     "version": "0.0.1",
-    "description": "Browser extension of Moegirlpedia",
+    "description": "__MSG_description__",
     "author": "Helloworld",
     "permissions": [
         "storage",
@@ -20,5 +20,6 @@
     ],
     "browser_action": {
         "default_popup": "popup/index.html"
-    }
+    },
+    "default_locale": "en"
 }
