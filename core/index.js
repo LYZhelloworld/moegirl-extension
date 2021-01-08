@@ -2,7 +2,7 @@
 {
     chrome.storage.sync.get({ 'hide-comments': false }, (data) => {
         if (data['hide-comments']) {
-            // hide comment div
+            document.querySelector('#flowthread').style.display = 'none';
         }
     });
 }
